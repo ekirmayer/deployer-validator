@@ -9,4 +9,4 @@ def set_global_env_variable_profile(corsight_id):
         # Set value for current session
         os.environ["CORSIGHT_ID"] = corsight_id
     except Exception as error:
-        print(f'Failed to set the environment profile due to {error.__doc__}')
+        print(f'\nFailed to set the environment profile due to {error.__doc__}')

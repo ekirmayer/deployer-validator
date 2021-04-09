@@ -33,3 +33,16 @@ Building the package:
 python3.6 -m pip install --upgrade build
 python3.6 -m build
 ```
+
+## Running the tool
+
+```shell
+# Get help
+python3.6 -m deployer_validator -h
+
+# Run the validation
+sudo python3.6 -m deployer_validator -v
+
+# Pass the CORSIGHT_ID environment variable
+sudo python3.6 -m deployer_validator -v --CORSIGHT_ID=5
+```
