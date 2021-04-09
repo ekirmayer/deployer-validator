@@ -18,10 +18,9 @@ if __name__ == '__main__':
     print("Running on: {}".format(platform.platform()))
     if not check_is_platform_supported():
         exit(1)
-    print("Continue process")
     args = init()
     if args.validate:
-        print("run validate")
+        print("\nRun validate")
         validate_environment(corsight_id=args.CORSIGHT_ID)
     else:
         init(True)
