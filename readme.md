@@ -46,3 +46,14 @@ sudo python3.6 -m deployer_validator -v
 # Pass the CORSIGHT_ID environment variable
 sudo python3.6 -m deployer_validator -v --CORSIGHT_ID=5
 ```
+
+
+## TODO:
+
+- Add a logger:
+  - Output persistent file
+  - Output to central location
+- Allow verbosity
+- Exit code per error
+- Testing
+- Allow running from container
